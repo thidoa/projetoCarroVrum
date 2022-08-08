@@ -23,13 +23,16 @@
 		// Velocidade atual
 		
 		function setvelNow($v) {
-			if ($v > $this->velMax)
-				return $this->velMax;
-			else if ($this->lig == false)
-				return 0;
-			else {
-				$this->velNow = $v;
-				return $v;
+			if($this->lig == true){
+				if($v > $this->velMax){
+					$this->velNow = $this->velMax;
+				}
+				else{
+					$this->velNow = $v;
+				}
+			}
+			else{
+				$this->velNow = 0;
 			}
 		}
 		
@@ -83,6 +86,9 @@
 		}
 		function getKmetragem(){
 			return $this->kmetragem;
+		}
+		function getLig(){
+			return $this->lig;
 		}
 	}
 
