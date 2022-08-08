@@ -3,7 +3,6 @@
 	class Motor {
     
         public $modelo;
-        public $id;
         public $potencia;
         
         function setModelo($model){
