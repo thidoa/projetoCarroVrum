@@ -1,8 +1,24 @@
 body {
     color: black;
+    width: 100%;
+    background-image: url(../images/bg-cavrum.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 form {
     margin: 0 auto;
     width: 50%;
+}
+
+h1 {
+    color: white;
+}
+h3{
+    text-align: center;
+}
+
+div {
+    color: white;
 }

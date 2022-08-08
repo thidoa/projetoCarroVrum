@@ -27,14 +27,14 @@
         <h1>Projeto Carro Vrum</h1>
         <div class="objCarro">
         <ul>
-            <img src="images/cor.png" alt="Cor do carro">: <?php echo $carro->getCor(); ?>
+            <img src="images/cor.png" alt="Cor do carro"> <?php echo $carro->getCor(); ?>
             <img src="images/potencia.png" alt="Potência do carro"> <?php echo $carro->getPotencia(); ?>
             <img src="images/modelo.png" alt="Modelo do carro"> <?php echo $carro->getModelo(); ?>
             <img src="images/marca.png" alt="Marca do carro"> <?php echo $carro->getMarca(); ?>
             <img src="images/kilometragem.png" alt="kilometragem do carro"> <?php echo $carro->getKmetragem(); ?>
             <img src="images/velocidadeMaxima.png" alt="Velocidade máxima do carro"> <?php echo $carro->getvelMax(); ?>
             <img src="images/velocidadeAtual.png" alt="Velocidade atual do carro"> <?php echo $carro->getvelNow(); ?>
-            <img src="images/ligaDesliga.png" alt="Botão liga/desliga do carro"> 
+            <img src="images/ligaDesliga.png" alt="Botão liga/desliga do carro"> <?php echo $carro->getonoff(); ?>
         </ul>
         </div>
     </body>
