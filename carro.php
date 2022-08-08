@@ -2,7 +2,6 @@
 
 	class Carro {
 		public $cor;
-		public $potencia;
 		public $modelo;
 		public $marca;
 		public $kmetragem;
@@ -60,14 +59,6 @@
 		
 		function getCor(){ // Pegar o valor do atributo Cor
 			return $this->cor;
-		}
-		
-		function setPotencia($potencia){ // Inserir valor do atributo Potencia
-			$this->potencia = $potencia;
-		}
-		
-		function getPotencia(){ // Pegar o valor do atributo Potencia
-			return $this->potencia;
 		}
 		
 		function setModelo($modelo){ // Inserir valor do atributo Modelo
