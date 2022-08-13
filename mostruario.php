@@ -12,7 +12,7 @@
     $carro->setvelMax($_POST["Km/h"]);
     $carro->setvelNow($_POST["Vatual"]);
     $liga_desliga = $_POST["On/off"];
-    
+
 ?>
     <!DOCTYPE html>
     <html lang="pt-br">
@@ -34,7 +34,7 @@
             <img src="images/kilometragem.png" alt="kilometragem do carro"> <?php echo $carro->getKmetragem(); ?>
             <img src="images/velocidadeMaxima.png" alt="Velocidade máxima do carro"> <?php echo $carro->getvelMax(); ?>
             <img src="images/velocidadeAtual.png" alt="Velocidade atual do carro"> <?php echo $carro->getvelNow(); ?>
-            <img src="images/ligaDesliga.png" alt="Botão liga/desliga do carro"> <?php echo $carro->getonoff(); ?>
+            <img src="images/ligaDesliga.png" alt="Botão liga/desliga do carro"> 
         </ul>
         </div>
     </body>
